@@ -9,7 +9,7 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '5.x'
+    versionSpec: '4.x'
   displayName: 'Deploy my app'
 
 - script: |
